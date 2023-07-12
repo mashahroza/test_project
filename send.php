@@ -48,3 +48,4 @@ if ($fio && $phone && $pixelId) {
         header('Location: /#form-header');
     }
 }
+

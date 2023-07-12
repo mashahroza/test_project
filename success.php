@@ -13,6 +13,7 @@
 </head>
 
 <body data-long-time-text="7 минут">
+    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=<?php echo $_GET["$pixelId"]?>&ev=Lead&noscript=1" />
 	<div class="content">
 		<div class="panel">
 			<div class="panel-body">
@@ -135,8 +136,6 @@
 			<a href="privacy.html" target="_blank">Zásady ochrany osobných údajov</a>
 		</div>
 	</div>
-
-    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=<?php echo $_GET["$pixelId"]?>&ev=Lead&noscript=1" />
 
 	<script>
         $('.js-change-btn').click(function () {
